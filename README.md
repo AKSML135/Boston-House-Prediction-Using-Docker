@@ -12,3 +12,15 @@ Create a new environment
 ```
 conda create -p venv python==3.7 -y
 ```
+# docker command used - 
+- docker build -t bostonhouseprice:latest .
+- docker run -dp 127.0.0.1:3000:3000 bostonhouseprice:latest
+
+To remove image - 
+- docker container remove -f /[image name]
+or - docker rm -f /[image name]
+
+# Screenshot -
+![Alt text](bostonhousedocker.png)
+
+![Alt text](bostonhouseop.png)
